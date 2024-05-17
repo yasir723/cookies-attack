@@ -14,6 +14,6 @@ istemci ve sunucu arasında her iletişim için istemci, sunuca bir talep gönde
 
 örnek olarak `Yasir` adlı biri `facebook` sitesini ziyaret ettiğinde, facebook Yasir için yasir@facebook.txt şeklinde bir dosya oluşturur ve Yasir'in cihazında kaydedeilir. tarayıcı kapatıp geri açtığında facebook Yasir'in daha önce sitesini ziyaret ettiğini cookies dosyasını kullanarak öğrenir.
 
-### Saldırı
+## Saldırı
 
 Bir önceki Query String Attack saldırısında URL ile gönderilen parametreleri kullanarak hassas bilgileri üzerinde değişiklik yaparak nasıl oturum çalımamızı öğrendik ancak sistem geliştiricisi bu defa hassas biglierli URL ile iletmesini ne kadar tehlikeli olduğunu anlayıp cookies kullanarak iletmeyi tercih etti ancak yine de biz hacker olarak cookies ile iletilen parametreleri değiştirip yine de oturum çalabiliriz
