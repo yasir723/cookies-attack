@@ -1,14 +1,22 @@
 # Cookies Attack
 
-Her hangi bir siteye girdiğimizde ve `ağ` kısmında baktığımızda tarayıcıdan sunuca kullandığımız tarayıcının adı, kullandığımız cihazın ip'si gibi bir sürü bilgi belege gönderildiğini gözlemleyeceğiz. Gönderilen bu bilgilerin arasında Cookies bilgisi olacaktır. bir siteye ziyaret ettiğimizde tarayıcı bizim cihazımızda bu siteyle ilgili kaydedilen çerezler dosyasını gönderir.
+Bir siteye girdiğimizde ve `ağ` kısmına baktığımızda, tarayıcının sunucuya tarayıcı adı, cihazın IP adresi gibi birçok bilgi gönderdiğini görürüz. Bu bilgiler arasında **Cookies** (çerezler) de bulunur. Ziyaret ettiğimizde, tarayıcı cihazımızda kaydedilen bu siteye ait çerezleri sunucuya iletir.
+
 
 ## Talep Yanıt İşlemi
 
-
 ![request and response](https://github.com/yasir723/cookies-attack/assets/111686779/e17101ac-c3aa-4346-affc-0a7eed54eeb4)
 
-istemci ve sunucu arasında her iletişim için istemci, sunuca bir talep gönderir bu talepte çerezieri içeriyor, ardından sunucu yanıt olarak aynı çerezleri döndürür veya onun değerleri güncelleyip döndürebilir vs..
-çerezler genelde bu şekilde olmaktadır. "Cookie1_name=Cookie1_value&Cookie2_name=Cookie2_value" ve örnek olarak bu şekilde olabilir "PHPSESSID=708813902f8ca46 & userName=admin.
+İstemci ve sunucu arasındaki her iletişimde, istemci sunucuya bir talep gönderir. Bu talep genellikle çerezleri içerir. Sunucu, yanıt olarak aynı çerezleri döndürebilir veya çerezlerin değerlerini güncelleyerek geri gönderebilir.
+
+Çerezler genellikle şu şekilde görünür: 
+```
+Cookie1_name=Cookie1_value&Cookie2_name=Cookie2_value
+```
+Örnek olarak bu şekilde bir çerez dosyası olabilir:
+```
+PHPSESSID=708813902f8ca46&userName=admin
+```
 
 <div align='center' >
   <img src='https://github.com/yasir723/cookies-attack/assets/111686779/312b1392-4330-4d51-9ea8-3b353b3d0b3e'>
