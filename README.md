@@ -51,5 +51,5 @@ Ve biz bunu console kısmından çok kolay bir şekilde değiştirebiliriz:
   <img src='https://github.com/yasir723/cookies-attack/assets/111686779/a9bea07e-c609-4d58-88b5-77c020ba807d'>
 </div>
 
-
+Ardından Jena adına işlemler yapabiliriz...
 
